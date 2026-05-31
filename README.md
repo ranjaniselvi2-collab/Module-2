@@ -87,12 +87,51 @@ print("Sum =", add(x, y))
 
 Thus, the Python program for addition of two numbers using a lambda function was executed successfully.
 
+### Ex-2:Looping(Patterns)-Pascal's Triangle Generator in Python
 
+### Aim:
 
+To write a Python program that generates Pascal's Triangle using numbers. The number of rows is accepted from the user.
 
+### Algorithm:
 
+1.Start the program.
 
+2.Input the number of rows from the user.
 
+3.Loop from 0 to the number of rows.
+
+4.For each row:
+  Print appropriate spaces to shape the triangle.
+  Compute values using the formula:
+  [ C(n, k) = \frac{n!}{k!(n-k)!} ]
+  
+5.Print all rows of Pascal’s Triangle.
+
+6.End the program.
+
+### Program:
+```
+n = int(input("Enter the number of rows: "))
+
+for i in range(n):
+    num = 1
+    for j in range(n - i - 1):
+        print(" ", end="")
+    for j in range(i + 1):
+        print(num, end=" ")
+        num = num * (i - j) // (j + 1)
+    print()
+
+```
+
+### output:
+
+<img width="523" height="307" alt="image" src="https://github.com/user-attachments/assets/02524a1b-8280-46ab-b2fd-af1e59704b10" />
+
+### Result:
+
+Thus, the Python program for generating Pascal's Triangle was executed successfully.
 
 
 
