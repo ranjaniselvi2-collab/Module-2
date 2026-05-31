@@ -17,6 +17,8 @@ print("Binary value is:", bin(num))
 ```
 ### Output:
 
+<img width="400" height="118" alt="Screenshot 2026-05-31 103243" src="https://github.com/user-attachments/assets/ca375989-3d27-4fd9-8591-8300d4777c49" />
+
 
 ### Result:
 Thus, the Python program for binary conversion using the built-in bin() function was executed successfully, and the binary equivalent of the given number was displayed correctly.
