@@ -156,6 +156,25 @@ Thus, the Python program for generating Pascal's Triangle was executed successfu
 
 ### Program:
 ```
+num = int(input("Enter a number: "))
+temp = num
+rev = 0
 
+while num > 0:
+    digit = num % 10
+    rev = rev * 10 + digit
+    num = num // 10
 
+if temp == rev:
+    print("Palindrome Number")
+else:
+    print("Not a Palindrome Number")
 
+```
+### Output:
+
+<img width="434" height="287" alt="image" src="https://github.com/user-attachments/assets/fe0682dd-b9a1-4b09-8245-cf35f4fc3a35" />
+
+### Result:
+
+Thus, the Python program for checking whether a given number is a palindrome or not using loops was executed successfully.
