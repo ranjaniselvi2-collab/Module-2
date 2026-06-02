@@ -1,35 +1,35 @@
-### Ex-2:Built-in Functions -Binary Conversion Using Built-in Functions in Python
+## Ex-2:Built-in Functions -Binary Conversion Using Built-in Functions in Python
 
-### Aim:
+## Aim:
 To write a Python program to convert the number 16 into its binary representation using built-in Python functions.
 
-### Algorithm:
+## Algorithm:
 1.Assign the value 16 to a variable a.
 
 2.Use the built-in bin() function to convert the number to binary.
 
 3.Print the result.
 
-### Program:
+## Program:
 ```
 num = int(input("Enter a number: "))
 print("Binary value is:", bin(num))
 ```
-### Output:
+## Output:
 
 <img width="400" height="118" alt="Screenshot 2026-05-31 103243" src="https://github.com/user-attachments/assets/ca375989-3d27-4fd9-8591-8300d4777c49" />
 
 
-### Result:
+## Result:
 Thus, the Python program for binary conversion using the built-in bin() function was executed successfully, and the binary equivalent of the given number was displayed correctly.
 
-### Ex-2:Functions in Python: Modulo Calculator
+## Ex-2:Functions in Python: Modulo Calculator
 
-### Aim:
+## Aim:
 
 To write a Python program that defines a function which accepts two values and returns their modulo using the % operator.
 
-### Algorithm:
+## Algorithm:
 
 1.Define a function called result that takes two arguments a and b.
 
@@ -41,28 +41,28 @@ To write a Python program that defines a function which accepts two values and r
 
 5.Call the result function with the user-provided values.
 
-### Program:
+## Program:
 ```
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 result = a % b
 print("Modulo =", result)
 ```
-### Output:
+## Output:
 
 <img width="445" height="159" alt="image" src="https://github.com/user-attachments/assets/46c39c32-0f47-4c65-a8c4-5b91f35ccc5f" />
 
-### Result:
+## Result:
 
 Thus, the Python program for calculating the modulo (remainder) of two numbers was executed successfully.
 
-### Ex-2:Lambda Function in Python: Addition of Two Numbers
+## Ex-2:Lambda Function in Python: Addition of Two Numbers
 
-###  Aim:
+##  Aim:
 
 To write a Python program that defines a lambda function which takes two arguments a and b, and returns their sum.
 
-### Algorithm:
+## Algorithm:
 
 1.Get two integer inputs from the user.
 
@@ -71,7 +71,7 @@ To write a Python program that defines a lambda function which takes two argumen
 3.Call the function with the user inputs and print the result.
 
 
-### Program:
+## Program:
 ```
 add = lambda a, b: a + b
 x = int(input("Enter first number: "))
@@ -79,21 +79,21 @@ y = int(input("Enter second number: "))
 print("Sum =", add(x, y))
 ```
 
-### Output:
+## Output:
 
 <img width="403" height="140" alt="image" src="https://github.com/user-attachments/assets/8524bf54-c53a-45f8-9d78-6bfe239eeeee" />
 
-### Result:
+## Result:
 
 Thus, the Python program for addition of two numbers using a lambda function was executed successfully.
 
-### Ex-2:Looping(Patterns)-Pascal's Triangle Generator in Python
+## Ex-2:Looping(Patterns)-Pascal's Triangle Generator in Python
 
-### Aim:
+## Aim:
 
 To write a Python program that generates Pascal's Triangle using numbers. The number of rows is accepted from the user.
 
-### Algorithm:
+## Algorithm:
 
 1.Start the program.
 
@@ -110,7 +110,7 @@ To write a Python program that generates Pascal's Triangle using numbers. The nu
 
 6.End the program.
 
-### Program:
+## Program:
 ```
 n = int(input("Enter the number of rows: "))
 
@@ -125,21 +125,21 @@ for i in range(n):
 
 ```
 
-### output:
+## output:
 
 <img width="523" height="307" alt="image" src="https://github.com/user-attachments/assets/02524a1b-8280-46ab-b2fd-af1e59704b10" />
 
-### Result:
+## Result:
 
 Thus, the Python program for generating Pascal's Triangle was executed successfully.
 
-### Ex-2:Loops in Python: Palindrome Number Checker
+## Ex-2:Loops in Python: Palindrome Number Checker
 
-### Aim:
+## Aim:
 
 Thus, the Python program for generating Pascal's Triangle was executed successfully.
 
-### Algorithm:
+## Algorithm:
 1.Get input from the user and assign it to a variable num.
 
 2.Assign the value of num to a temporary variable temp.
@@ -154,7 +154,7 @@ Thus, the Python program for generating Pascal's Triangle was executed successfu
       If equal, print that the number is a palindrome.
           Else, print that it is not a palindrome.
 
-### Program:
+## Program:
 ```
 num = int(input("Enter a number: "))
 temp = num
@@ -171,10 +171,10 @@ else:
     print("Not a Palindrome Number")
 
 ```
-### Output:
+## Output:
 
 <img width="434" height="287" alt="image" src="https://github.com/user-attachments/assets/fe0682dd-b9a1-4b09-8245-cf35f4fc3a35" />
 
-### Result:
+## Result:
 
 Thus, the Python program for checking whether a given number is a palindrome or not using loops was executed successfully.
